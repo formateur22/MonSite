@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="us">
+	<head>
+		<title>Mon titre</title>
+		<meta charset="utf-8" />	
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+	
+	<body>
+		
+		<h1>Formulaire</h1>
+		
+		
+		<form>
+			
+			<fieldset>
+			<legend>Etudiant</legend>
+				<label for="nom">Nom :</label>
+				<input type="text" id="nom" name="nom" size="20" maxlength="5" placeholder="saisir votre nom" /><br />
+				<label for="prenom">Prénom :</label>
+				<input type="text" id="prenom" name="prenom" value="Jean" required /><br><br>
+			</fieldset>
+			<fieldset>
+			<legend>Métier</legend>
+				<label>Genre :</label>
+				<input type="radio" name="genre" />Homme
+				<input type="radio" name="genre" checked />Femme
+				<br><br>
+				<label>Métier :</label>
+				<select name="metier" size="2" multiple>
+					<option value="1">Cadre</option>
+					<option value="2" selected>Technicien</option>
+					<option value="3">Administratif</option>
+				</select>
+			</fieldset>
+			<br><br>
+			<label>Description :</label>
+			<textarea cols="50" rows="5">
+			
+			</textarea>
+			
+			<br><br>
+			<button>Bouton</button>
+			<br><br>
+			Email : <input type="email" />
+			
+			<br><br>
+			Id : <input type="text" hidden value="id" />
+			
+			<br><br>
+			<input type="submit" value="Envoyer" />
+			<input type="reset" value="Annuler" />
+		
+		
+		</form>
+		
+		
+		<br><br>
+		
+		<!-- un commentaire -->
+		Le corps de ma <a href="#pied">page.</a> <br /><br /><br /><br />
+		une ligne de ma page. <br />
+		une autre ligne.
+		
+		<p>
+			Mon paragraphe en html Mon paragraphe en html Mon paragraphe en html Mon paragraphe en html Mon paragraphe en html Mon paragraphe en html
+			Mon paragraphe en html Mon paragraphe en html Mon paragraphe en html Mon paragraphe en html Mon paragraphe en html Mon paragraphe en html<br />
+			Mon paragraphe en html <b>Mon paragraphe en html Mon paragraphe</b> en html Mon paragraphe en html Mon paragraphe en html Mon paragraphe en html
+			Mon paragraphe en html Mon <span id="texte">paragraphe en html Mon paragraphe</span> en html Mon paragraphe en html Mon paragraphe en html Mon paragraphe en html
+			Mon paragraphe en html Mon paragraphe en html Mon paragraphe en html Mon paragraphe en html Mon paragraphe en html Mon paragraphe en html
+		</p>
+		
+		<h1>Un titre de niveau 1</h1>
+		<h3>Un sous titre de niveau 3</h3>
+		<h6>Un sous titre de niveau 6</h6>
+		
+		<ul>
+			<li>PSG</li>
+			<li>OL</li>
+			<li>OM</li>
+		</ul>
+		
+		<ol>
+			<li>PSG</li>
+			<li>OL</li>
+			<li>OM</li>
+		</ol>
+		
+		<img src="img/inti-logo.png" alt="Mon logo" />
+		
+		Cliquer sur <a href="contact.html">Contact</a> pour être redirigé vers la page contact.html
+		
+		<a href="https://www.intiformation.com/">Lien vers Inti Formation</a>
+		
+		
+		<div class="similaire">
+			Mon block div
+			<p> un paragraphe dans un div</p>
+		</div>
+		
+		<div class="similaire">
+			Mon deuxième block div
+		</div>
+		
+		<table style="border: 1px solid black">
+			<caption>Titre de mon tableau</caption>
+			<tr>
+				<td style="border: 1px solid black">1</td>
+				<td>2</td>
+			</tr>
+			<tr style="border: 1px solid black">
+				<td style="border: 1px solid black">3</td>
+				<td>4</td>
+				<td>5</td>
+			</tr>
+		</table>
+		
+		
+		<div id="header">
+			Mon bloc header avant html 5
+		</div>
+		
+		<header>
+			Mon block header en html 5
+		</header>
+		
+		<section>
+			<article>
+				<p>notre article 1</p>
+			</article>
+			<article>
+				<p>notre article 2</p>
+			</article>
+			<article>
+				<p>notre article 3</p>
+			</article>
+			<p>
+				Paragraphe dans section
+			</p>
+			
+		</section>
+		<aside>
+			infos complémentaires...
+		</aside>
+		
+		
+		<article>
+				<p>article en dehors de la section</p>
+		</article>
+		
+		<footer id="pied">
+			Pied de page...
+		</footer>
+		
+	</body>
+	
+</html>

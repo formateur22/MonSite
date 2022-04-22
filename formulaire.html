@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+    <title>Ma page</title>
+	<meta charset=UTF-8 >
+	<link rel="stylesheet"   type="text/css"   href="style.css" />
+</head>
+<body>
+	
+	<fieldset>
+		<legend>Client</legend>
+		<form>
+			<label class="gauche">Civilité</label> 
+			<input type="radio" name="civilite" class="data" />Mademoiselle
+			<input type="radio" name="civilite" checked />Madame
+			<input type="radio" name="civilite" />Monsieur
+			<br />
+			<label>Nom / Prénom :</label> <input class="data" type="text" placeholder="Adresse">
+			<br />
+			<label>Adresse</label> <textarea class="data" placeholder="Adresse"></textarea>
+			<br />
+			<label>Code postal / Ville</label> <input class="data" type="text" pattern="[0-9]{5}"> <input type="text">
+			<br />
+			<label>Pays </label>
+			<select class="data">
+				<option value="1">France</option> 
+				<option value="2">Angleterre</option>
+				<option value="3" selected>Suisse</option>
+				<option value="4">Allemagne</option>
+				<option value="5">Italie</option>
+			</select>
+			<br />
+			<label>Plateforme </label>
+			<input class="data" type="checkbox" name="plateforme" />Windows
+			<input type="checkbox" name="plateforme" />Macintosh
+			<input type="checkbox" name="plateforme" />Unix
+			<br />
+			<label>Application</label>
+			<select class="data" size="5" multiple="oui">
+				<option value="br" selected>Bureautique</option> 
+				<option value="2">DAO</option>
+				<option value="3" selected>Statistiques</option>
+				<option value="4">SGBD</option>
+				<option value="5">Internet</option>
+			</select>
+			<br />
+			<input type="submit" value="Submit">
+			<input type="reset">
+		
+		</form>
+	</fieldset>
+
+	<audio controls>
+	<source src="musique.mp3"></source>
+	<source src="musique.wma"></source>
+	</audio>
+	
+	<video controls>
+		<source src="musique.mp4"></source>
+		<source src="musique.avi"></source>
+	</video>
+
+
+</body>
+</html>

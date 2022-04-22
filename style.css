@@ -1,0 +1,16 @@
+fieldset {
+  margin-bottom:1em;
+  padding-top:1.5em;
+  background:green;
+}
+
+label {
+  position:fixed;
+  padding-top:.2em;
+  left:20px;
+}
+
+.data {
+  margin-left:10em;
+  margin-bottom:.2em;
+}
